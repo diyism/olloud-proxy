@@ -1,0 +1,80 @@
+# Dependencies (bun/node)
+node_modules/
+
+# Lockfiles
+bun.lock
+
+# Output
+out/
+dist/
+*.tgz
+
+# Code coverage
+coverage/
+*.lcov
+
+# Logs
+logs/
+*.log
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.dev.vars
+
+# Caches
+.eslintcache
+.cache/
+*.tsbuildinfo
+
+# Wrangler
+.wrangler/
+
+# Python (legacy)
+.venv/
+venv/
+env/
+.env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.uv/
+uv.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI assistant rules
+AGENTS.md
+.roo/
+.env*.local
+
+# GCF deployment
+gcf/
