@@ -1,4 +1,4 @@
-name = "devkit-anthropic-proxy"
+name = "diyism-olloud-proxy"
 main = "src/index.ts"
 compatibility_date = "2025-01-13"
 
