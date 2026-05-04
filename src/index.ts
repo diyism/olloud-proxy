@@ -1,4 +1,4 @@
-// Devkit Anthropic Proxy - Cloudflare Worker
+// Diyism Olloud Proxy - Cloudflare Worker
 // Converts Anthropic v1/messages API to OpenAI-compatible API
 
 import { fromPreTrained } from "@lenml/tokenizer-claude";
@@ -1141,7 +1141,7 @@ async function handleCountTokens(request: Request): Promise<Response> {
 
 function handleHealth(): Response {
   return new Response(
-    JSON.stringify({ status: "ok", service: "devkit-anthropic-proxy" }),
+    JSON.stringify({ status: "ok", service: "diyism-olloud-proxy" }),
     {
       headers: { ...CORS_HEADERS, "Content-Type": "application/json" },
     }
