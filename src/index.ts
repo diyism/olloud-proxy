@@ -494,7 +494,7 @@ function convertToolChoice(
 
 function convertRequest(req: AnthropicRequest): OpenAIRequest {
   const openaiReq: OpenAIRequest = {
-    model: `${A4F_PROVIDER_PREFIX}/${req.model}`,
+    model: `${req.model}`,
     messages: convertMessages(req.messages, req.system),
     max_tokens: req.max_tokens,
     stream: req.stream || false,
