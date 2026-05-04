@@ -328,8 +328,7 @@ bunx wrangler secret put VALID_API_KEYS
 # When prompted, enter comma-separated keys: key1,key2,key3
 
 # Deploy
-bun run deploy
-# or bunx wrangler deploy  (first do: bun install)
+bunx wrangler deploy  (first do: bun install)
 ```
 
 #### Deploy Updates
