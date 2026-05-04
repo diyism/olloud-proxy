@@ -1,3 +1,5 @@
+forked from https://github.com/edxeth/a4f-proxy
+
 # Diyism Olloud Proxy
 
 A CloudFlare Worker that proxies multiple API formats to A4F's API gateway, enabling tools like Roo Code, Cline, and other AI clients to work seamlessly with A4F's backend.
