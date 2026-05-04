@@ -1,4 +1,4 @@
-# Devkit Anthropic Proxy
+# Diyism Olloud Proxy
 
 A CloudFlare Worker that proxies multiple API formats to A4F's API gateway, enabling tools like Roo Code, Cline, and other AI clients to work seamlessly with A4F's backend.
 
@@ -58,7 +58,7 @@ curl http://localhost:8787/health
 
 Response:
 ```json
-{"status":"ok","service":"devkit-anthropic-proxy"}
+{"status":"ok","service":"diyism-olloud-proxy"}
 ```
 
 ### List Models
@@ -285,7 +285,7 @@ bunx wrangler disable
 **Via CloudFlare Dashboard:**
 1. Go to [CloudFlare Dashboard](https://dash.cloudflare.com/)
 2. Navigate to **Workers & Pages**
-3. Click on **devkit-anthropic-proxy**
+3. Click on **diyism-olloud-proxy**
 4. Go to **Settings**
 5. Click **Disable**
 
@@ -299,7 +299,7 @@ bunx wrangler enable
 **Via CloudFlare Dashboard:**
 1. Go to [CloudFlare Dashboard](https://dash.cloudflare.com/)
 2. Navigate to **Workers & Pages**
-3. Click on **devkit-anthropic-proxy**
+3. Click on **diyism-olloud-proxy**
 4. Go to **Settings**
 5. Click **Enable**
 
@@ -345,7 +345,7 @@ bunx wrangler deployments list
 ```
 
 **Via Dashboard:**
-1. Go to **Workers & Pages** → **devkit-anthropic-proxy**
+1. Go to **Workers & Pages** → **diyism-olloud-proxy**
 2. Click on **Deployments** tab
 
 #### Rollback to Previous Version
@@ -441,7 +441,7 @@ bunx wrangler tail --status=ok
 #### CloudFlare Dashboard Analytics
 
 1. Go to [CloudFlare Dashboard](https://dash.cloudflare.com/)
-2. Navigate to **Workers & Pages** → **devkit-anthropic-proxy**
+2. Navigate to **Workers & Pages** → **diyism-olloud-proxy**
 3. View the **Analytics** tab for:
    - Request counts
    - Error rates
