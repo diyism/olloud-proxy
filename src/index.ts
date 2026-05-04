@@ -265,8 +265,8 @@ interface ResponsesFunctionCallItem {
 // Constants
 // ============================================================================
 
-const A4F_BASE_URL = "https://api.cloudflare.com/client/v4/accounts/46730770ba929b62c66e9a76e8ec02fc/ai/v1";
-const A4F_PROVIDER_PREFIX = "@cf";
+const A4F_BASE_URL = "https://ollama.com/v1";
+const A4F_PROVIDER_PREFIX = "";
 const A4F_RESPONSES_PROVIDER_PREFIX = "provider-5";
 
 const CORS_HEADERS = {
